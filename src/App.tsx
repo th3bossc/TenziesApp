@@ -55,6 +55,7 @@ function App() {
     else {
       setTenzies(false)
       setDice(initialize())
+      setCount(0)
     }
 
   }
