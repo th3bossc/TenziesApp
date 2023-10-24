@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Karla:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url('assets/blob-scene-haikei.svg');
+  background-size: cover;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width : 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

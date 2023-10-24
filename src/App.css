@@ -1,0 +1,92 @@
+.main-content {
+  width: 320px;
+  height: 320px;
+  padding: 33.28px 34.56px 33.92px 34.56px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F5F5F5;
+  position : relative;
+  display : flex;
+  flex-direction : column;
+}
+
+.dies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap : 17.92px;
+}
+
+.title {
+  display: flex;
+  width: 197.12px;
+  height: 31.36px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+  color: #2B283A;
+  text-align: center;
+  font-family: Karla;
+  font-size: 25.6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.768px;
+}
+
+.text {
+  width: 232.96px;
+  flex-shrink: 0;
+
+  color: #4A4E74;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13.107px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.393px;
+}
+
+.roll-button {
+  width: 92.16px;
+  padding : 5px;
+  flex-shrink: 0;
+  background : #5035FF;
+  border-radius: 3px;
+  margin-top : 15px;
+
+  color: #FFF;
+  text-align: center;
+  font-family: Karla;
+  font-size: 16.384px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border : none;
+}
+
+.roll-button:focus {
+  outline: none;
+}
+
+.roll-button:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+  margin : 5px;
+  position : absolute;
+  bottom : 0;
+  right : 0;
+  text-align: end;
+  color: #FFF;
+  font-family: Karla;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  
+}
