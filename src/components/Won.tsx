@@ -11,7 +11,7 @@ export default function Won(props : propsI) {
     const { count } = props
     const highScore : number = parseInt(localStorage.getItem('highScore') || "0")
     
-    if (count < highScore)
+    if (count < highScore || highScore === 0)
         localStorage.setItem('highScore', count.toString())
 
     return (
