@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+# Tenzies
+A simple site based on the tenzies game that was made as a part of react course on [scrimba](https://scrimba.com/learn/learnreact)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of contents
 
-Currently, two official plugins are available:
+- [Overview](#overview)
+- [Built with](#built-with)
+- [Installation](#installation)
+- [Author](#author)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Overview
+The player can get a random roll by clicking the roll button, while choosing the dice which he wants to remain the same. The player wins when all the dice show the same number. the number of rolls is counted to keep high score count.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Built with
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [ReactJS](https://react.dev/)
+
+## Installation 
+
+1. Clone the repo
+  ```bash
+    git clone https://github.com/th3bossc/TenziesApp.git
+  ```
+ 
+2. Change directory and install dependencies
+  ```bash
+    cd TenziesApp
+    npm install
+  ```
+
+3. Set environment variables
+    
+4. Run the server
+
+  ```bash
+    npm run dev
+  ```
+
+5. The server should be running on http://localhost:5173
+
+
+
+## Author
+
+- Website - [Diljith P D](https://th3bossc.github.io/Portfolio)
